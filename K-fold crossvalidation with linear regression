@@ -37,3 +37,5 @@ cv_lm <- function(formula, dataset, k) {
   # return the mean mse!
   mean(mses)
 }
+
+cv_lm(formula = y ~ x, dataset = data, k = 5/10)
